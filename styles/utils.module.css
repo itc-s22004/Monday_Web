@@ -12,8 +12,8 @@
 }
 
 .wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     width: 100%;
     background-color: rgb(187, 164, 66);
     position: absolute;/*←絶対位置*/

@@ -1,9 +1,11 @@
 import Layout from "@/components/layout"
+import Topic from "@/components/topic"
 
 const talk = () => {
     return (
         <Layout>
-            <p></p>
+            <h1>話題で話そう</h1>
+            <Topic />
         </Layout>
     )
 }
