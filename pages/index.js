@@ -1,10 +1,31 @@
+import Image from 'next/image'
+import Image_Pic from 'pic/wordwolf.jpg'
+import Layout from '@/components/layout'
+// import styles from '@/styles/utils.module.css'
+
 const Home = () => {
   return (
-    <div>
-	  <p>s22004</p>
-	  <p>s22008</p>
-	  <p>s22019</p>
-  </div>
+    <>
+      <Layout>
+        <figure>
+          <Image
+            src={Image_Pic}
+            alt=""
+            style={{ width: 280, height: 200 }}
+            priority
+            placeholder='blur'
+          />
+        </figure>
+        <div >
+          <h3>お喋り、会話</h3>
+          <a href="/talk">気まZゲーム</a>
+        </div>
+        <div >
+          <h3>ゲーム</h3>
+          <a href="/game">ワードウルフ</a>
+        </div>
+      </Layout>
+    </>
   )
 }
 
