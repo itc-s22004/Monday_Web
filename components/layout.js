@@ -1,6 +1,6 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import style from "@/styles/utils.module.css"
+import style from "@/styles/styles.module.css"
 
 const Layout = ({children}) => {
     return (
