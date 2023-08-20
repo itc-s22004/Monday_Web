@@ -3,7 +3,7 @@ import Hint from "@/components/hint"
 import style from '@/styles/styles.module.css'
 
 const Topic = () => {
-  const topic_List = ["START", "aaaa", "bbbb", "cccc", "dddd", "eeeee", "ffffff", "これであなた達は友達"]
+  const topic_List = ["START", "1111", "2222", "3333", "4444", "5555", "6666", "これであなた達は友達"]
   const [count, setCount] = useState(0)
 
   return (
@@ -16,48 +16,25 @@ const Topic = () => {
         }} className={style.topic_btn}>
         話 題
       </button>
+
       <div className={style.topic_pic}>
         <div className={style.txt_center}>
           {topic_List[count]}
         </div>
       </div>
+
+      <h2>気まずくなったら ”<span>HINT</span>” 押してね</h2>
+
       <Hint
         number="1"
         topic_push_count={count}
       />
       <Hint
-        number="11"
+        number="2"
         topic_push_count={count}
       />
-      {/* <Hint
-        number="3"
-        topic_push_count={count}
-      /> */}
     </div>
   )
 }
 
 export default Topic
-
-
-
-// import React, { useEffect, useState } from "react";
-// import SwitchButton from "./SwitchButton";
-
-// export const Topic = () =>{
-
-//   //stateの定義
-//   const [switchIcon,setSwitchIcon] = useState(0);
-
-//   const toggleButton = () => {
-//     setSwitchIcon(!switchIcon);
-//   }
-
-//   return (
-//     <>
-//       <SwitchButton toggleButton={toggleButton} switchIcon={switchIcon}/>
-//     </>
-//   );
-// };
-
-// export default Topic
