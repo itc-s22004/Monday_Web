@@ -5,8 +5,14 @@ body {
 }
 
 a {
-    font-size: 20px;
+    padding: 20px;
+    font-size: 40px;
     font-weight: 900;
     color: inherit;
     text-decoration: none;
+    background-color: rgb(236, 237, 237);
+}
+
+span {
+    color: rgb(227, 13, 13);
 }
