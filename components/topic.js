@@ -3,7 +3,7 @@ import Hint from "@/components/hint"
 import style from '@/styles/styles.module.css'
 
 const Topic = () => {
-  const topic_List = ["START", "aaaa", "bbbb", "cccc", "dddd", "eeeee", "ffffff", "これであなた達は友達"]
+  const topic_List = ["START", "1111", "2222", "3333", "4444", "5555", "6666", "これであなた達は友達"]
   const [count, setCount] = useState(0)
 
   return (
