@@ -3,7 +3,8 @@ import style from "@/styles/styles.module.css"
 
 const Hint = ({ number, topic_push_count }) => {
     const [count, setCount] = useState(0)
-    const topic_hint = [" ", "hint1", "hint2", "hint3", "hint4", "hint5", "hint6", "hint7", "hint8", "hint9", "hint10"]
+    const topic_hint = [" ", "好きなジャンル", "好きな楽器", "好きな国の料理", "好きな料理の種類", "好きなジャンル", "おすすめのゲーム", "好きな車種", "好きなメーカー
+    ", "場所の種類", "場所の特徴"]
     return (
         <>
             <button

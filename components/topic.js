@@ -3,9 +3,8 @@ import Hint from "@/components/hint"
 import style from '@/styles/styles.module.css'
 
 const Topic = () => {
-  const topic_List = ["START", "1111", "2222", "3333", "4444", "5555", "6666", "これであなた達は友達"]
+  const topic_List = ["START", "好きな音楽", "好きな食べ物,", "好きなゲーム","好きな車"," 好きな場所", "これであなた達は友達"]
   const [count, setCount] = useState(0)
-
   return (
     <div className={style.sideBySideCenter}>
       <button
